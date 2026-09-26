@@ -204,12 +204,12 @@
   .notes-empty { padding: 48px 20px; text-align: center; color: var(--ink-faint); font-size: 14px; line-height: 1.6; }
 </style>
 </head>
-<body data-version="2026-09-20a">
+<body data-version="2026-09-27a">
 
 <div class="header">
   <div class="header-top">
     <div>
-      <div class="week-badge">Week of September 20</div>
+      <div class="week-badge">Week of September 27</div>
       <h1>Family<br><em>Meal Plan</em></h1>
     </div>
     <div class="progress-pill" id="grocery-pill">Shop</div>
@@ -228,20 +228,35 @@
   <div class="tab-section active" id="tab-meals">
 
     <div class="day-row tonight">
-      <div class="day-col"><div class="day-name">Sun</div><div class="day-date">20</div></div>
+      <div class="day-col"><div class="day-name">Sun</div><div class="day-date">27</div></div>
       <div class="meal-col">
-        <div class="meal-type-label">Tonight</div>
-        <div class="meal-title">Tri-tip on the grill + orzo salad + corn on the cob</div>
-        <div class="meal-note">Orzo salad uses what's already on hand — cucumber, tomato, red onion, feta, lemon vinaigrette. Cook extra tri-tip for Monday's quesadillas.</div>
+        <div class="meal-type-label">Tonight — 7 for dinner</div>
+        <div class="meal-title">Burger + hot dog bar on the grill + corn + pasta salad (or coleslaw) + chips</div>
+        <div class="meal-note">4 adults, 3 kids — everyone builds their own, easy to scale for a crowd and fun for mixed ages.</div>
+        <div class="meal-tags">
+          <span class="mtag mtag-time">Grill night</span>
+        </div>
       </div>
     </div>
 
     <div class="day-row">
-      <div class="day-col"><div class="day-name">Mon</div><div class="day-date">21</div></div>
+      <div class="day-col"><div class="day-name">Mon</div><div class="day-date">28</div></div>
       <div class="meal-col">
         <div class="meal-type-label">Monday</div>
-        <div class="meal-title">Tri-tip quesadillas</div>
-        <div class="meal-note">Using Sunday's leftovers — C gets a plain quesadilla.</div>
+        <div class="meal-title">Sausage sheet pan + peppers &amp; zucchini</div>
+        <div class="meal-note">Hasn't been in rotation in over a month.</div>
+        <div class="meal-tags">
+          <span class="mtag mtag-time">25 min</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-row">
+      <div class="day-col"><div class="day-name">Tue</div><div class="day-date">29</div></div>
+      <div class="meal-col">
+        <div class="meal-type-label">Taco Tuesday — carb-load for Wed's meet</div>
+        <div class="meal-title">TJ's carnitas tacos, flour tortillas + rice + black beans + all the fixings</div>
+        <div class="meal-note">Flour shells and rice for extra carbs ahead of tomorrow's meet.</div>
         <div class="meal-tags">
           <span class="mtag mtag-time">15 min</span>
         </div>
@@ -249,43 +264,31 @@
     </div>
 
     <div class="day-row">
-      <div class="day-col"><div class="day-name">Tue</div><div class="day-date">22</div></div>
+      <div class="day-col"><div class="day-name">Wed</div><div class="day-date">30</div></div>
       <div class="meal-col">
-        <div class="meal-type-label">Taco Tuesday</div>
-        <div class="meal-title">Ground turkey tacos + black beans + all the fixings</div>
-        <div class="meal-note">Everyone home. Haven't done turkey in a few weeks.</div>
+        <div class="meal-type-label">Wednesday — XC meet, fast</div>
+        <div class="meal-title">Rotisserie chicken + butter pasta</div>
+        <div class="meal-note">Store-bought rotisserie — no cook time on the protein. Buy an extra one to cover C's Thursday alternative and lunches this week.</div>
         <div class="meal-tags">
-          <span class="mtag mtag-time">25 min</span>
+          <span class="mtag mtag-time">10 min</span>
         </div>
       </div>
     </div>
 
     <div class="day-row">
-      <div class="day-col"><div class="day-name">Wed</div><div class="day-date">23</div></div>
-      <div class="meal-col">
-        <div class="meal-type-label">Wednesday</div>
-        <div class="meal-title">Sheet pan chicken breast + roasted broccoli</div>
-        <div class="meal-note">Cook extra chicken — covers C's alternative Thursday plus Anna's lunches this week.</div>
-        <div class="meal-tags">
-          <span class="mtag mtag-time">30 min</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="day-row">
-      <div class="day-col"><div class="day-name">Thu</div><div class="day-date">24</div></div>
+      <div class="day-col"><div class="day-name">Thu</div><div class="day-date">1</div></div>
       <div class="meal-col">
         <div class="meal-type-label">Thursday</div>
-        <div class="meal-title">Salmon + sweet potato + sautéed spinach</div>
-        <div class="meal-note">C gets plain chicken alongside from Wednesday's extra batch.</div>
+        <div class="meal-title">Thai-spiced ground pork rice bowl + cucumber, tomato, lemon</div>
+        <div class="meal-note">C gets plain chicken alongside from Wednesday's extra rotisserie.</div>
         <div class="meal-tags">
-          <span class="mtag mtag-time">25 min</span>
+          <span class="mtag mtag-time">20 min</span>
         </div>
       </div>
     </div>
 
     <div class="day-row">
-      <div class="day-col"><div class="day-name">Fri</div><div class="day-date">25</div></div>
+      <div class="day-col"><div class="day-name">Fri</div><div class="day-date">2</div></div>
       <div class="meal-col">
         <div class="meal-type-label">Friday — pizza night</div>
         <div class="meal-title">Homemade pizza</div>
@@ -306,32 +309,34 @@
 
       <!-- Dinner proteins -->
       <div class="grocery-section-header"><h2>Dinner proteins</h2><span class="section-count" id="count-proteins"></span></div>
-      <div class="grocery-item" data-section="proteins" data-id="p1" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Tri-tip</div><div class="item-note">Tonight — cook extra for Monday's quesadillas</div></div></div>
-      <div class="grocery-item" data-section="proteins" data-id="p2" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Ground turkey</div><div class="item-note">Tuesday tacos</div></div></div>
-      <div class="grocery-item" data-section="proteins" data-id="p3" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Chicken breasts, extra</div><div class="item-note">Wednesday sheet pan — extra for C's Thursday alternative + Anna's lunches</div></div></div>
-      <div class="grocery-item" data-section="proteins" data-id="p4" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Salmon</div><div class="item-note">Thursday</div></div></div>
+      <div class="grocery-item" data-section="proteins" data-id="p1" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Ground beef, for burgers</div><div class="item-note">Tonight — feeds 7</div></div></div>
+      <div class="grocery-item" data-section="proteins" data-id="p2" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Hot dogs</div><div class="item-note">Tonight — easy kid option</div></div></div>
+      <div class="grocery-item" data-section="proteins" data-id="p3" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Italian sausage</div><div class="item-note">Monday sheet pan</div></div></div>
+      <div class="grocery-item" data-section="proteins" data-id="p4" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">TJ's carnitas</div><div class="item-note">Tuesday tacos — just needs reheating</div></div></div>
+      <div class="grocery-item" data-section="proteins" data-id="p5" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Rotisserie chicken, x2</div><div class="item-note">Wednesday dinner + extra for C's Thursday alternative and lunches</div></div></div>
+      <div class="grocery-item" data-section="proteins" data-id="p6" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Ground pork</div><div class="item-note">Thursday Thai-spiced rice bowl</div></div></div>
 
       <div class="section-spacer"></div>
 
       <!-- Produce -->
       <div class="grocery-section-header"><h2>Produce</h2><span class="section-count" id="count-produce"></span></div>
       <div class="grocery-item" data-section="produce" data-id="pr1" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Corn</div><div class="item-note">Tonight's grill</div></div></div>
-      <div class="grocery-item" data-section="produce" data-id="pr2" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Cucumber</div><div class="item-note">Tonight's orzo salad</div></div></div>
-      <div class="grocery-item" data-section="produce" data-id="pr3" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Cherry tomatoes</div><div class="item-note">Tonight's orzo salad</div></div></div>
-      <div class="grocery-item" data-section="produce" data-id="pr4" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Red onion</div><div class="item-note">Tonight's orzo salad</div></div></div>
-      <div class="grocery-item" data-section="produce" data-id="pr5" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Lemon</div><div class="item-note">Tonight's orzo salad vinaigrette</div></div></div>
-      <div class="grocery-item" data-section="produce" data-id="pr6" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Broccoli</div><div class="item-note">Wednesday sheet pan</div></div></div>
-      <div class="grocery-item" data-section="produce" data-id="pr7" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Sweet potatoes</div><div class="item-note">Thursday</div></div></div>
-      <div class="grocery-item" data-section="produce" data-id="pr8" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Spinach</div><div class="item-note">Thursday</div></div></div>
+      <div class="grocery-item" data-section="produce" data-id="pr2" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Pasta salad kit (or coleslaw mix)</div><div class="item-note">Tonight's side — pick whichever's easiest</div></div></div>
+      <div class="grocery-item" data-section="produce" data-id="pr3" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Bell peppers</div><div class="item-note">Monday sheet pan</div></div></div>
+      <div class="grocery-item" data-section="produce" data-id="pr4" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Zucchini</div><div class="item-note">Monday sheet pan</div></div></div>
+      <div class="grocery-item" data-section="produce" data-id="pr5" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Lemon</div><div class="item-note">Thursday rice bowl</div></div></div>
+      <div class="grocery-item" data-section="produce" data-id="pr6" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Cucumber</div><div class="item-note">Thursday rice bowl</div></div></div>
+      <div class="grocery-item" data-section="produce" data-id="pr7" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Cherry tomatoes</div><div class="item-note">Thursday rice bowl</div></div></div>
+      <div class="grocery-item" data-section="produce" data-id="pr8" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Fresh ginger</div><div class="item-note">Thursday Thai-spiced pork</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr9" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Avocados, 2–3</div><div class="item-note">Tuesday tacos</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr10" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Cilantro</div><div class="item-note">Tuesday tacos</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr11" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Limes, 3–4</div><div class="item-note">Tuesday tacos</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr12" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Salsa</div><div class="item-note">Fresh section — Tuesday tacos</div></div></div>
-      <div class="grocery-item" data-section="produce" data-id="pr13" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Lettuce + tomato</div><div class="item-note">Tuesday taco fixings</div></div></div>
+      <div class="grocery-item" data-section="produce" data-id="pr13" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Lettuce + tomato</div><div class="item-note">Tuesday taco fixings + tonight's burger toppings</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr14" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Extra veggies for snacking (carrots, cucumbers, bell peppers)</div><div class="item-note">More veg on hand for the week</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr15" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Fruit leather or dried fruit</div><div class="item-note">After-school sports snacks</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr16" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Yellow onion</div></div></div>
-      <div class="grocery-item" data-section="produce" data-id="pr17" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Garlic</div></div></div>
+      <div class="grocery-item" data-section="produce" data-id="pr17" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Garlic</div><div class="item-note">Also for Monday sheet pan + Thursday's pork</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr18" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Mandarin oranges</div><div class="item-note">Lukas — lunches</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr19" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Bananas</div></div></div>
       <div class="grocery-item" data-section="produce" data-id="pr20" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Apples or seasonal fruit</div></div></div>
@@ -345,7 +350,7 @@
       <div class="grocery-item" data-section="dairy" data-id="d2" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Sliced deli cheese</div><div class="item-note">Ham & cheese lunches + Wednesday paninis</div></div></div>
       <div class="grocery-item" data-section="dairy" data-id="d3" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Shredded Mexican blend cheese</div><div class="item-note">Tuesday tacos</div></div></div>
       <div class="grocery-item" data-section="dairy" data-id="d4" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Sour cream</div><div class="item-note">Tuesday tacos</div></div></div>
-      <div class="grocery-item" data-section="dairy" data-id="d5" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Feta</div><div class="item-note">Tonight's orzo salad</div></div></div>
+      <div class="grocery-item" data-section="dairy" data-id="d5" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">American cheese slices</div><div class="item-note">Tonight's burgers</div></div></div>
       <div class="grocery-item" data-section="dairy" data-id="d12" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Mozzarella</div><div class="item-note">Friday pizza</div></div></div>
       <div class="grocery-item" data-section="dairy" data-id="d6" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Jam</div></div></div>
       <div class="grocery-item" data-section="dairy" data-id="d7" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Greek yogurt, large tub</div></div></div>
@@ -364,6 +369,7 @@
       <div class="grocery-item" data-section="deli" data-id="dl4" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Sourdough sliced bread</div></div></div>
       <div class="grocery-item" data-section="deli" data-id="dl5" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Sandwich bread</div></div></div>
       <div class="grocery-item" data-section="deli" data-id="dl6" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Hummus</div></div></div>
+      <div class="grocery-item" data-section="deli" data-id="dl7" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Burger buns + hot dog buns</div><div class="item-note">Tonight — 7 people</div></div></div>
 
       <div class="section-spacer"></div>
 
@@ -373,9 +379,13 @@
       <div class="grocery-item" data-section="pantry" data-id="pa2" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Bread flour</div><div class="item-note">Check every week</div></div></div>
       <div class="grocery-item" data-section="pantry" data-id="pa3" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Pancake mix</div><div class="item-note">Check every week</div></div></div>
       <div class="grocery-item" data-section="pantry" data-id="pa4" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Whole wheat flour</div></div></div>
-      <div class="grocery-item" data-section="pantry" data-id="pa5" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Tortillas (corn + flour)</div><div class="item-note">Monday quesadillas + Tuesday tacos</div></div></div>
-      <div class="grocery-item" data-section="pantry" data-id="pa6" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Black beans</div><div class="item-note">Taco night — standing item every week</div></div></div>
+      <div class="grocery-item" data-section="pantry" data-id="pa5" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Flour tortillas, large</div><div class="item-note">Tuesday tacos — flour shells for extra carbs</div></div></div>
+      <div class="grocery-item" data-section="pantry" data-id="pa6" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Rice</div><div class="item-note">Tuesday carb-load side + Thursday's rice bowl</div></div></div>
+      <div class="grocery-item" data-section="pantry" data-id="pa13" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Black beans</div><div class="item-note">Taco night — standing item every week</div></div></div>
       <div class="grocery-item" data-section="pantry" data-id="pa7" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Pizza sauce</div><div class="item-note">Friday pizza</div></div></div>
+      <div class="grocery-item" data-section="pantry" data-id="pa14" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Pasta</div><div class="item-note">Wednesday butter pasta</div></div></div>
+      <div class="grocery-item" data-section="pantry" data-id="pa15" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Fish sauce</div><div class="item-note">Thursday Thai-spiced pork</div></div></div>
+      <div class="grocery-item" data-section="pantry" data-id="pa16" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Chips</div><div class="item-note">Tonight's group dinner</div></div></div>
       <div class="grocery-item" data-section="pantry" data-id="pa9" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Olive oil</div><div class="item-note">Check levels</div></div></div>
       <div class="grocery-item" data-section="pantry" data-id="pa10" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Whole grain crackers</div></div></div>
       <div class="grocery-item" data-section="pantry" data-id="pa11" onclick="toggle(this)"><div class="check-circle"><span class="check-icon">✓</span></div><div><div class="item-text">Almond butter / PB</div><div class="item-note">Check levels</div></div></div>
@@ -418,16 +428,16 @@
     <div class="prep-item">
       <div class="prep-num urgent">1</div>
       <div>
-        <div class="prep-task">Season the tri-tip</div>
-        <div class="prep-why">Marinate ahead of tonight's grill — cook extra for Monday's quesadillas.</div>
+        <div class="prep-task">Form burger patties + set up the toppings bar</div>
+        <div class="prep-why">For tonight's group of 7 — get ahead of it before the crowd arrives.</div>
       </div>
     </div>
 
     <div class="prep-item">
       <div class="prep-num">2</div>
       <div>
-        <div class="prep-task">Cook the orzo and toss the salad</div>
-        <div class="prep-why">Cucumber, tomato, red onion, feta, lemon vinaigrette — ready alongside tonight's tri-tip.</div>
+        <div class="prep-task">Make the pasta salad (or coleslaw)</div>
+        <div class="prep-why">Side for tonight's dinner — can be made ahead and chilled.</div>
       </div>
     </div>
 
@@ -475,7 +485,7 @@
 <div class="toast" id="toast"></div>
 
 <script>
-  const STORAGE_KEY = 'family-grocery-v20';
+  const STORAGE_KEY = 'family-grocery-v21';
 
   function loadState() {
     try { const raw = localStorage.getItem(STORAGE_KEY); return raw ? JSON.parse(raw) : {}; } catch(e) { return {}; }
